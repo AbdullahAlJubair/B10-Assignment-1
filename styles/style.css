@@ -101,6 +101,10 @@ nav>div>button {
     line-height: 26px;
     opacity: 0.7;
 }
+#inspiration>.heading-Box {
+    width: 852px;
+    margin: 0 auto 50px;
+}
 
 /* Development Section Design */
 #dev {
@@ -151,4 +155,15 @@ nav>div>button {
 }
 .dev-card-img img{
     width: 100%;
+}
+
+/* Inspiration Section Design */
+
+.inspiration-video {
+    max-width: 1140px;
+    padding: 32px;
+    margin: 0 auto;
+}
+.inspiration-video> iframe{
+    border-radius: 16px;
 }
