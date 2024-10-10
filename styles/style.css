@@ -27,7 +27,7 @@ nav>div>button {
     font-size: 20px;
     font-weight: 600;
     background-color: #fff;
-    padding: 10px 15px;
+    padding: 17px 24px;
     border-radius: 8px;
     border: 1px solid #0D1321;
     opacity: 0.8;
@@ -67,6 +67,7 @@ nav>div>button {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
+    opacity: 0.7;
 }
 
 .hero-Btn {
@@ -80,4 +81,74 @@ nav>div>button {
     background: #0D1321;
     cursor: pointer;
 }
+/* Global Heading Box Design */
+.heading-Box {
+    text-align: center;
+    margin-bottom: 50px;
+}
 
+.heading-Box>h2 {
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.heading-Box>p {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+/* Development Section Design */
+#dev {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 74px;
+    padding: 80px 97px;
+}
+.dev-card-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin-bottom: 32px;
+}
+.dev-card-box:nth-child(2) {
+    flex-direction: row-reverse;
+}
+.dev-card-content {
+    max-width: 477px;
+}
+.dev-card-head {
+    color: rgba(13, 19, 33, 0.70);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.dev-card-text {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    opacity: 0.7;
+}
+
+.dev-card-btn {
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 1px solid #0D1321;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.dev-card-img {
+    max-width: 260px;
+}
+.dev-card-img img{
+    width: 100%;
+}
