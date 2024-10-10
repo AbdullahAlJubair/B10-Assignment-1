@@ -81,6 +81,11 @@ nav>div>button {
     background: #0D1321;
     cursor: pointer;
 }
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* Global Heading Box Design */
 .heading-Box {
     text-align: center;
@@ -101,30 +106,35 @@ nav>div>button {
     line-height: 26px;
     opacity: 0.7;
 }
-#inspiration>.heading-Box {
+
+#inspiration>.heading-Box,
+#target>.heading-Box,
+#next-target>.heading-Box {
     width: 852px;
     margin: 0 auto 50px;
 }
 
 /* Development Section Design */
 #dev {
-    max-width: 1140px;
-    margin: 0 auto;
     margin-top: 74px;
     padding: 80px 97px;
 }
+
 .dev-card-box {
     display: flex;
     justify-content: space-between;
     padding: 48px;
     margin-bottom: 32px;
 }
+
 .dev-card-box:nth-child(2) {
     flex-direction: row-reverse;
 }
+
 .dev-card-content {
     max-width: 477px;
 }
+
 .dev-card-head {
     color: rgba(13, 19, 33, 0.70);
     font-size: 24px;
@@ -153,17 +163,69 @@ nav>div>button {
 .dev-card-img {
     max-width: 260px;
 }
-.dev-card-img img{
+
+.dev-card-img img {
     width: 100%;
 }
 
 /* Inspiration Section Design */
 
 .inspiration-video {
-    max-width: 1140px;
     padding: 32px;
-    margin: 0 auto;
 }
-.inspiration-video> iframe{
+
+.inspiration-video>iframe {
     border-radius: 16px;
 }
+
+/* My Target Section Design */
+#target {
+    margin-top: 150px;
+}
+.target-box-container {
+    display: flex;
+    gap: 24px;
+}
+#html-card {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+#css-card {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+#js-card {
+    background-color: rgba(255, 223, 0, 0.05);
+
+    ;
+}
+.target-card-box {
+    padding: 40px;
+    border-radius: 16px;
+}
+.target-card-box>img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.target-card-box>h5 {
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.target-card-box>p {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+
+.target-card-box>a {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
