@@ -9,7 +9,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1160px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 30px 0;
 }
@@ -77,7 +77,8 @@ nav>div>button {
     background: #0D1321;
     cursor: pointer;
 }
-.hero-Btn>a{
+
+.hero-Btn>a {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
@@ -340,4 +341,36 @@ main {
     font-weight: 600;
     cursor: pointer;
     border: 0;
+}
+
+/* Footer Section Design */
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container h6 {
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-icon>img {
+    width: 36px;
+    height: 36px;
 }
