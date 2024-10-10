@@ -72,14 +72,16 @@ nav>div>button {
 
 .hero-Btn {
     padding: 21px 24px;
-    color: #FFF;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
     border: 0;
     border-radius: 8px;
     background: #0D1321;
     cursor: pointer;
+}
+.hero-Btn>a{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 main {
@@ -89,19 +91,18 @@ main {
 
 /* Global Heading Box Design */
 .heading-Box {
+    color: #0D1321;
     text-align: center;
     margin-bottom: 50px;
 }
 
 .heading-Box>h2 {
-    color: #0D1321;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
 }
 
 .heading-Box>p {
-    color: #0D1321;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -275,4 +276,68 @@ main {
     font-size: 16px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+
+/* Support Section Design */
+#support {
+    margin: 50px 0 80px;
+    padding: 64px 48px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../assets/handshake.jpg) lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.support-container {
+    width: 730px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+}
+
+.support-container>h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.support-container>p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+
+
+.support-form {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.support-form>input[type="text"] {
+    width: 548px;
+    background: #FFF;
+    color: rgba(13, 19, 33, 0.68);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+}
+
+.support-form>input[type="text"]:focus-visible {
+    outline: none;
+}
+
+.support-form>input[type="submit"] {
+    width: 120px;
+    padding: 18px 20px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
 }
