@@ -86,6 +86,7 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* Global Heading Box Design */
 .heading-Box {
     text-align: center;
@@ -182,25 +183,31 @@ main {
 #target {
     margin-top: 150px;
 }
-.target-box-container {
+
+.target-card-container {
     display: flex;
     gap: 24px;
 }
+
 #html-card {
     background-color: rgba(255, 76, 30, 0.05);
 }
+
 #css-card {
     background-color: rgba(0, 76, 232, 0.05);
 }
+
 #js-card {
     background-color: rgba(255, 223, 0, 0.05);
 
     ;
 }
+
 .target-card-box {
     padding: 40px;
     border-radius: 16px;
 }
+
 .target-card-box>img {
     width: 56px;
     height: 56px;
@@ -229,3 +236,43 @@ main {
     text-decoration-line: underline;
 }
 
+/* My Next Target Section Design */
+#next-target {
+    margin-top: 110px;
+}
+
+.next-target-card-box {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin-bottom: 24px;
+}
+
+.next-target-card-img img {
+    width: 95px;
+}
+
+.next-target-card-content h5 {
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.next-target-card-content p {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+
+.next-target-card-content a {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
